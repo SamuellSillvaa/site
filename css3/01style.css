@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+  margin: 0;
+}
+
+.hero {
+  background-image: url(../imagens/bg-3.jpg);
+  height: 500px;
+  background-position: right center;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.hero-content h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px #000;
+  margin-bottom: 50px;
+}
+
+.hero-content p {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.content-section p {
+  padding: 10px;
+}
+
+.hero nav ul {
+  text-align: right;
+  margin: 20px 50px 0 0;
+}
+
+.hero nav li {
+  display: inline-block;
+  list-style: none;
+
+  border: 1px solid #fff;
+}
+
+.hero nav a {
+  background: rgba(0, 0, 0, 0.4);
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.hero nav a:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.content-section {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  display: inline-block;
+  padding: 23px;
+}
+
+.par {
+  background-color: rgb(73, 70, 70);
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.content-section h2 {
+  background-color: #ccc;
+  padding: 30px;
+  border-bottom: solid 5px #000;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-shadow: 3px 3px 2px #000;
+  padding: 30px;
+  margin-top: 20px;
+}
