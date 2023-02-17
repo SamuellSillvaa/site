@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(83, 82, 82);
+}
+
+.contact {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 200px 200px 200px 200px;
+}
+
+.contact div {
+  padding: 50px;
+}
+
+a {
+  font-family: "Press Start 2P", cursive;
+  text-decoration: none;
+  color: black;
+}

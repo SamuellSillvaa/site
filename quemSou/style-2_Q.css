@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: rgb(83, 82, 82);
+  font-family: "Fira Code", monospace;
+}
+
+.sobre {
+  text-align: center;
+  background: #fff;
+  margin: 50px 200px;
+  padding: 20px;
+}
+
+.sobre p {
+  padding-bottom: 26px;
+  line-height: 30px;
+  color: rgb(73, 73, 73);
+}
+
+.sobre h1,
+h2 {
+  padding-bottom: 30px;
+}

@@ -38,6 +38,8 @@ body {
   display: inline-block;
   padding: 20px;
   border-bottom: 2px solid rgb(255, 255, 255);
+
+  line-height: 26px;
 }
 
 .content-section p {
@@ -111,6 +113,7 @@ main {
   background-color: #ccc;
   padding: 30px;
   border-bottom: solid 5px #000;
+  text-align: center;
 }
 
 footer {
