@@ -109,6 +109,10 @@ main {
   padding: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content-section h2 {
   background-color: #ccc;
   padding: 30px;
