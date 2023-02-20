@@ -10,6 +10,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ccc;
   margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .hero {
@@ -118,6 +121,61 @@ a {
   padding: 30px;
   border-bottom: solid 5px #000;
   text-align: center;
+}
+
+.content-1 {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+button {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #000;
+  outline: none;
+  background-color: transparent;
+  color: #000000;
+  transition: 1s;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #ccc;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #ccc;
+  transition: 0.5s;
+}
+
+button:hover::before,
+button:hover::after {
+  transform: scale(0);
+}
+button:hover {
+  box-shadow: inset 0px 0px 25px #000;
 }
 
 footer {
