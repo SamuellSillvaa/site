@@ -137,10 +137,11 @@ button {
   width: 10em;
   position: relative;
   height: 3.5em;
-  border: 3px ridge #000;
+  border: 3px ridge #ffffff;
   outline: none;
   background-color: transparent;
-  color: #000000;
+  color: #ffffff;
+  text-shadow: 3px 3px 2px #000;
   transition: 1s;
   font-size: 16px;
   font-weight: bold;
@@ -149,6 +150,7 @@ button {
 button::after {
   content: "";
   position: absolute;
+
   top: -10px;
   left: 3%;
   width: 95%;
@@ -162,6 +164,7 @@ button::before {
   content: "";
   transform-origin: center;
   position: absolute;
+
   top: 80%;
   left: 3%;
   width: 95%;
@@ -176,6 +179,9 @@ button:hover::after {
 }
 button:hover {
   box-shadow: inset 0px 0px 25px #000;
+  color: #000;
+  border: 3px ridge #000000;
+  text-shadow: none;
 }
 
 footer {
